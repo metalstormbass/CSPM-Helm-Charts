@@ -10,10 +10,12 @@ rbac:
   pspEnable: false
 
 serviceAccount:
-  create: true
+  create: false
   ## Define serviceAccount name. If set to false defaults to fully qualified name or "default"
   ##
   name: 
+
+ocServiceAccount: ""
 
 ## Image settings
 image:
