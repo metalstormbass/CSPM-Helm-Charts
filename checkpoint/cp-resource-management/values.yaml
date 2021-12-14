@@ -21,7 +21,7 @@ image:
   tag: v1.1.0
   ## Specify an imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 ## Extra environment variables that will be passed onto deployment pods
 env: {}
